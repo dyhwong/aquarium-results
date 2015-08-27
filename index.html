@@ -7,13 +7,92 @@
 		<link href="http://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet" type="text/css">
 
 		<style>
+			.header {
+				background-color: #222222;
+				color: #FFFFFF;
+				padding: 30px;
+			}
 
+			.header h1 {
+				font-family: "Pathway Gothic One", sans-serif;
+				font-size: 48px;
+				margin-bottom: 20px;
+			}
+
+			.header p {
+				font-family: "Lato", sans-serif;
+				font-size: 16px;
+				line-height: 1.4;
+				font-weight: 200;
+				max-width: 750px;
+			}
+
+			.header img {
+				width: 150px;
+				float: right;
+				position: relative;
+				top: -100px;
+			}
+
+			.content {
+				padding: 30px;
+				font-family: "Lato", sans-serif;
+				font-size: 16px;
+				line-height: 1.4;
+			}
+
+			.content h2 {
+				font-family: "Pathway Gothic One", sans-serif;
+				font-size: 36px;
+				margin-bottom: 20px;
+			}
+
+			.content .puzzles p {
+				margin-bottom: 10px;
+			}
+
+			.content .puzzles ul li {
+				display: inline-block;
+			}
+
+			.content .puzzles ul li a {
+				width: 260px;
+				color: #999999;
+				padding: 10px;
+				margin: 8px;
+				border: 1px solid #999999;
+				border-radius: 5px;
+				display: inline-block;
+				text-decoration: none;
+				transition: 0.2s;
+				-webkit-transition: 0.2s;
+			}
+
+			.content .puzzles ul li a:hover {
+				color: #000000;
+				border-color: #000000;
+			}
+
+			.content .facts, .content .questions {
+				padding-top: 30px;
+			}
+
+			@media (max-width: 700px) {
+				.header img {
+					display: none;
+				}
+
+				.header h1 {
+					text-align: center;
+				}
+			}
 		</style>
 	</head>
 
 	<body>
 		<div class="header">
 			<h1>2015 Aquarium Trip Puzzle Hunt</h1>
+			<img src="totem.svg"></img>
 			<p>The MIT Freshmen Puzzle Hunt is now over! We had over 40 teams with 300 participants in total. Congratulations to all of those who solved it - we hope you had fun!</p>
 		</div>
 
@@ -22,7 +101,15 @@
 				<h2>The Puzzles</h2>
 				<p>For those who didn't make it to the aquarium/would like to revisit the puzzles, we've posted them below for your perusal:</p>
 				<ul>
-					<li><a>1. You Complete Me</a></li>
+					<li><a href="#">1. You Complete Me</a></li>
+					<li><a href="#">2. Fact or Fiction</a></li>
+					<li><a href="#">3. The Tourist</a></li>
+					<li><a href="#">4. BrainTEAsers</a></li>
+					<li><a href="#">5. Half-Remembered Cherrim</a></li>
+					<li><a href="#">6. Safety in '19 Numb3rs</a></li>
+					<li><a href="#">7. Kingdoms of Isolation</a></li>
+					<li><a href="#">8. Synchronized Kicks</a></li>
+					<li><a href="#">META. Limbo</a></li>
 				</ul>
 			</div>
 
@@ -34,7 +121,7 @@
 
 			<div class="questions">
 				<h2>Questions?</h2>
-				<p>Yes! Contact <a href="mailto:aqua-puzzles@mit.edu">aqua-puzzles@mit.edu</a>. You can ask for the solutions as well!s</p>
+				<p>Yes! Contact us at <a href="mailto:aqua-puzzles@mit.edu">aqua-puzzles@mit.edu</a>. You can ask for the solutions as well!</p>
 			</div>
 		</div>
 
